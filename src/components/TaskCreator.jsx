@@ -14,7 +14,7 @@ const TaskCreator = ({ createNewTask }) => {
           <input
           className="form-control"
           type="text"
-          placeholder="Enter a new task"
+          placeholder="Ingresa una nueva tarea"
           value={newTasName}
           onChange={(event) => setNewTaskName(event.target.value)}
         />
