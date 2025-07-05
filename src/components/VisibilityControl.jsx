@@ -1,9 +1,7 @@
-import React from 'react'
-
 const VisibilityControl = ({isCkecked, cleanTasks, setShowCompleted}) => {
 
     const handleDelete =() => {
-        if (window.confirm('Are you sure you want to delete it?')) {
+        if (window.confirm('Seguro quieres eliminar la tarea?')) {
             cleanTasks()
         }
     }
