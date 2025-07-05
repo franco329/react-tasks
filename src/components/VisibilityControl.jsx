@@ -1,7 +1,7 @@
 const VisibilityControl = ({isCkecked, cleanTasks, setShowCompleted}) => {
 
     const handleDelete =() => {
-        if (window.confirm('Seguro quieres eliminar la tarea?')) {
+        if (window.confirm('Eliminar todas las tareas?')) {
             cleanTasks()
         }
     }
