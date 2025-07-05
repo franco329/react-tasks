@@ -15,7 +15,7 @@ const TaskTable = ({ taskItems, toggleTask, showCompleted = false }) => {
     <table className="table table-dark table-striped table-bordered border-secondary">
       <thead>
         <tr className="table-primary">
-          <th>Task</th>
+          <th>Tarea</th>
         </tr>
       </thead>
       <tbody>

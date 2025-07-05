@@ -17,10 +17,10 @@ const VisibilityControl = ({isCkecked, cleanTasks, setShowCompleted}) => {
             onChange={(e) => setShowCompleted(e.target.checked)}
             checked={isCkecked}
         />
-        <label>Show Tasks Done</label>
+        <label>Mostrar Tareas Realizadas</label>
         </div>
         <button onClick={handleDelete} className='btn btn-danger btn-sm'>
-            Clear
+            Limpiar
         </button>
       </div>
   )

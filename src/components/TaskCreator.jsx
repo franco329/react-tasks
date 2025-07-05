@@ -20,7 +20,7 @@ const TaskCreator = ({ createNewTask }) => {
         />
         </div>
         <div className="col-3">
-        <button className="btn btn-primary btn-sm">Save Task</button>
+        <button className="btn btn-primary btn-sm">Guardar Tarea</button>
 
         </div>
       </form>
